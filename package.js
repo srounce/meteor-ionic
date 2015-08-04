@@ -1,5 +1,5 @@
 Package.describe({
-  name: "meteoric:ionic",
+  name: "rounce:ionic",
   summary: "Ionic components for Meteor. No Angular!",
   version: "0.1.18",
   git: "https://github.com/meteoric/meteor-ionic.git"
@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.use([
     "templating",
     "underscore",
-    "percolatestudio:fastclick",
+    "rounce:fastclick@1.0.3",
     "iron:router@1.0.0",
     "tracker",
     "session"
