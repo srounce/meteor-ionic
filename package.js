@@ -1,5 +1,5 @@
 Package.describe({
-  name: "rounce:ionic",
+  name: "meteoric:ionic",
   summary: "Ionic components for Meteor. No Angular!",
   version: "0.1.18",
   git: "https://github.com/meteoric/meteor-ionic.git"
