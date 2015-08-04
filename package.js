@@ -11,7 +11,14 @@ Cordova.depends({
 
 Package.onUse(function(api) {
   api.versionsFrom("1.0");
-  api.use(["templating", "underscore", "fastclick", "iron:router@1.0.0", "tracker", "session"], "client");
+  api.use([
+    "templating",
+    "underscore",
+    "percolatestudio:fastclick",
+    "iron:router@1.0.0",
+    "tracker",
+    "session"
+  ], "client");
 
   api.addFiles([
     "vendor/snap.js",
